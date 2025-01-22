@@ -1,0 +1,9 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return nums[0]
+        else:
+            result = 0
+            for i in nums:
+                result ^= i
+            return result
