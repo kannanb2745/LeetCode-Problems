@@ -1,4 +1,4 @@
-class Solution {
+class Left_Rigth_sum_difference {
     public int[] leftRightDifference(int[] nums) {
      int left =0, rigth =0;
      int[] ans = new int[nums.length];
